@@ -1,6 +1,6 @@
 {
   "name": "@warsawjs-monorepo/module-b",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -10,6 +10,6 @@
   "author": "",
   "license": "Apache-2.0",
   "dependencies": {
-    "@warsawjs-monorepo/module-a": "^0.0.3"
+    "@warsawjs-monorepo/module-a": "^0.0.4"
   }
 }
