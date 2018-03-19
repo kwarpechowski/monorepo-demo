@@ -1,1 +1,3 @@
-module.exports = 'alpha'
+module.exports = {
+  a: 1
+};
