@@ -1,13 +1,10 @@
 {
   "name": "@warsawjs-monorepo/module-a",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "",
   "main": "lib/index.js",
   "author": "",
   "license": "Apache-2.0",
-  "dependencies": {
-    "module-a": "^2.0.0"
-  },
   "files": [
     "lib"
   ],
