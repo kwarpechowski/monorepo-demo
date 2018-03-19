@@ -1,6 +1,6 @@
 {
   "name": "@warsawjs-monorepo/module-a",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "",
   "main": "lib/index.js",
   "author": "",
@@ -12,13 +12,12 @@
     "lib"
   ],
   "scripts": {
-    "prepublish": "babel src --out-dir lib"
+    "prepublish": "babel src --out-dir lib",
+    "build": "babel src --out-dir lib"
   },
   "devDependencies": {
     "@babel/cli": "^7.0.0-beta.42",
     "@babel/core": "^7.0.0-beta.42",
-    "@babel/preset-react": "^7.0.0-beta.42",
-    "install": "^0.10.4",
-    "npm": "^5.7.1"
+    "@babel/preset-react": "^7.0.0-beta.42"
   }
 }
