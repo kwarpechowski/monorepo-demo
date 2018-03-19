@@ -1,12 +1,23 @@
 {
   "name": "@warsawjs-monorepo/module-a",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
+  "main": "lib/index.js",
   "author": "",
-  "license": "ISC"
+  "license": "Apache-2.0",
+  "dependencies": {
+    "module-a": "^2.0.0"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "prepublish": "babel src --out-dir lib"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.0.0-beta.42",
+    "@babel/core": "^7.0.0-beta.42",
+    "install": "^0.10.4",
+    "npm": "^5.7.1"
+  }
 }
