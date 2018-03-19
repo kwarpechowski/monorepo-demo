@@ -1,3 +1,3 @@
 module.exports = {
-  a: 22
+  a: () => 1232
 };
